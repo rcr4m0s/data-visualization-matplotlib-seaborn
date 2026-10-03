@@ -5,15 +5,10 @@ iris = sns.load_dataset('iris')
 
 sns.set_theme(style='ticks')
 
-sns.scatterplot(
+sns.pairplot(
     data=iris,
-    x='sepal_length',
-    y='petal_length',
     hue='species',
-    style='species',
-    s=70
+    palette='Set2'
 )
-
-plt.title("Sepal Length vs Petal Length by Species")
 
 plt.show()
