@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 iris = sns.load_dataset('iris')
 
-# 2. Set Theme
 sns.set_theme(style="ticks")
 
 sns.scatterplot(
